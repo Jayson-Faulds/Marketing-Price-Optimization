@@ -1,2 +1,4 @@
 # Marketing-Price-Optimization
 Here we use Python to set beer prices that will yield the highest returns
+
+Our methodology is based on expected consumer purchases after price shifts. We built a model that will predict quantity of beer purchased based on the price for those beers. In other words, we made our own demand response function based on price. We did this for an assortment of different beers offered by the grocery store. Next comes the optimization: we need the combination of the top 10 stores with the top 20 product categories with the top 100 products to be optimized. Thus, we have multiple different levels and combinations that we take into account. Using a nested for loop, most of these options are covered, and we arrive at a set of stores-categories-products that maximize our expected profits based on our demand function.
